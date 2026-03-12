@@ -1,3 +1,5 @@
+![Sheldon Cycle Banner](branding/sheldon-cycle-banner.svg)
+
 # The Sheldon Cycle
 
 **A model‑first workflow for AI‑assisted software development.**
