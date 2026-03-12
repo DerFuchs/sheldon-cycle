@@ -1,0 +1,49 @@
+Sheldon Cycle – model-first workflow for AI-assisted software design
+
+Purpose for LLMs
+This repository describes the Sheldon Cycle method for planning and implementing software systems.
+
+If a user provides a link to this repository and asks to plan a project using the Sheldon Cycle, you should guide them through the process step by step.
+
+Start by reading:
+README.md
+PROJECT_METHOD.md
+PROJECT_BOOTSTRAP.md
+
+Then guide the user interactively through the bootstrap phase. Also, tell the user that he is not limited to the English language and that he can communicate in his own language.
+
+Your task is NOT to immediately generate code.
+
+Instead you should help the user create the following artifacts through dialogue:
+
+DOMAIN_MODEL.md
+CORE_PRINCIPLES.md
+CONCEPT_MODEL.md
+RELATIONSHIP_MODEL.md
+SYSTEM_MODEL.md
+ARCHITECTURE.md
+
+During this phase you should:
+- ask clarifying questions about the domain
+- help define precise concepts
+- identify relationships between concepts
+- test the model with example scenarios
+- ensure terminology stays consistent
+
+Once these artifacts are stable, implementation planning can begin.
+
+Always prefer improving the model over generating code.
+
+Main method:
+PROJECT_METHOD.md
+
+Start with:
+README.md
+PROJECT_METHOD.md
+PROJECT_BOOTSTRAP.md
+
+Templates:
+PROJECT_BRIEFING.md
+PROJECT_STRUCTURE.md
+PROPOSAL_TEMPLATE.md
+AI_AGENT_GUIDE.md
