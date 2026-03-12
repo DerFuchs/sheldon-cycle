@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .orbit-blue { fill:none; stroke:#2F6FDB; stroke-width:10; }
+      .orbit-orange { fill:none; stroke:#F59E0B; stroke-width:10; }
+    </style>
+  </defs>
+  <ellipse class="orbit-blue" cx="128" cy="128" rx="100" ry="40" transform="rotate(-35 128 128)"/>
+  <ellipse class="orbit-orange" cx="128" cy="128" rx="100" ry="40" transform="rotate(35 128 128)"/>
+  <circle cx="48" cy="170" r="12" fill="#FFFFFF" stroke="#2F6FDB" stroke-width="4"/>
+  <circle cx="208" cy="88" r="12" fill="#F59E0B"/>
+</svg>

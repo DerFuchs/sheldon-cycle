@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <defs>
+    <style>
+      .orbit-blue { fill:none; stroke:#2F6FDB; stroke-width:6; }
+      .orbit-orange { fill:none; stroke:#F59E0B; stroke-width:6; }
+      .title { font-family:Inter, Arial, sans-serif; font-size:80px; font-weight:600; fill:#111827; }
+      .tagline { font-family:Inter, Arial, sans-serif; font-size:28px; fill:#4B5563; }
+    </style>
+  </defs>
+
+  <ellipse class="orbit-blue" cx="180" cy="150" rx="140" ry="50" transform="rotate(-35 180 150)"/>
+  <ellipse class="orbit-orange" cx="180" cy="150" rx="140" ry="50" transform="rotate(35 180 150)"/>
+  <circle cx="70" cy="215" r="10" fill="#FFFFFF" stroke="#2F6FDB" stroke-width="4"/>
+  <circle cx="295" cy="85" r="10" fill="#F59E0B"/>
+
+  <text x="360" y="150" class="title">Sheldon Cycle</text>
+  <text x="360" y="195" class="tagline">Model‑First Software Design for AI‑Assisted Development</text>
+</svg>

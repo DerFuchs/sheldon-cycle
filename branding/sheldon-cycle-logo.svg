@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320">
+  <defs>
+    <style>
+      .orbit-blue { fill:none; stroke:#2F6FDB; stroke-width:8; }
+      .orbit-orange { fill:none; stroke:#F59E0B; stroke-width:8; }
+      .title { font-family:Inter, Arial, sans-serif; font-size:72px; font-weight:600; fill:#1F2937; }
+      .subtitle { font-family:Inter, Arial, sans-serif; font-size:42px; font-weight:500; fill:#2F6FDB; }
+    </style>
+  </defs>
+
+  <ellipse class="orbit-blue" cx="220" cy="150" rx="160" ry="60" transform="rotate(-35 220 150)"/>
+  <ellipse class="orbit-orange" cx="220" cy="150" rx="160" ry="60" transform="rotate(35 220 150)"/>
+
+  <circle cx="90" cy="230" r="10" fill="#FFFFFF" stroke="#2F6FDB" stroke-width="4"/>
+  <circle cx="350" cy="80" r="10" fill="#F59E0B"/>
+
+  <text x="340" y="160" class="title">Sheldon</text>
+  <text x="340" y="210" class="subtitle">Cycle</text>
+</svg>
