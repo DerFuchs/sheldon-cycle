@@ -14,7 +14,43 @@ Or put differently:
 **LLMs are great at implementing systems.  
 They are terrible at guessing them.**
 
-The Sheldon Cycle helps make that model explicit first.
+The Sheldon Cycle helps make that model explicit first by having a dialogue between a human and an LLM.
+
+---
+
+## tl;dr! I just tell me how to use it 🙄
+
+Okay! Just some very important context:
+
+With the Sheldon Cycle you'll have a valuable conversation with an LLM about your project. It is divided into two phases:
+
+- Phase 1: Receive a set of consistent and well-structured markdown documents (model) in return of your conversation.
+
+- Phase 2: Use the documents to build your software with a coding agent. Keep talking to your Sheldon Cycle conversation about the Problems and outputs of your coding agent to incrementally refine the model. 
+
+### Let's go
+
+1. Open up ChatGPT or any other conversational LLM which is capable of:
+   - reading web pages
+   - having project folders where you can upload files as sources
+2. Ideally make a new project folder. Provide some context if you like. It's not required.
+3. Initialize a new conversation within that folder by using the the following prompt:
+
+```
+I want to plan a software project using the Sheldon Cycle.
+
+Please follow the method described here:
+https://github.com/DerFuchs/sheldon-cycle
+
+Make sure to read the llms.txt file in that repo and follow it.
+```
+3. Just answer in a language and a style that you are comfortable with. 
+   - Works best when you think of it like you're talking to a colleague when you're brainstorming. 
+   - Be messy. It's okay.
+   - Be chatty. It's okay.
+   - Write walls of text. It's okay.
+   - There's no need to be super precise. It's okay.
+4. Profit
 
 ---
 
@@ -34,12 +70,11 @@ Progress seems to happen.
 
 But something subtle goes wrong.
 
-The **system model remains implicit**.
-
-Concepts are fuzzy.  
-Relationships are assumed.  
-Terminology slowly drifts.  
-Architecture emerges accidentally from code.
+The **system model remains implicit**:
+- Concepts are fuzzy.  
+- Relationships are assumed.  
+- Terminology slowly drifts.  
+- Architecture emerges accidentally from code.
 
 And eventually reality arrives.
 
@@ -60,9 +95,9 @@ The central principle of the Sheldon Cycle is simple:
 Reality → Model → Architecture → Implementation
 ```
 
-Instead of starting with code, the Sheldon Cycle starts with **understanding reality** and turning that understanding into an explicit model.
+Instead of starting with code, the Sheldon Cycle starts with **understanding reality** and turning that understanding into an explicit model, written in markdown artifacts.
 
-That model then guides architecture.
+That model then guides architecture. 
 
 And only then does implementation begin.
 
@@ -183,7 +218,7 @@ I want to plan a software project using the Sheldon Cycle.
 Please follow the method described here:
 https://github.com/DerFuchs/sheldon-cycle
 
-Guide me through the bootstrap phase step by step and help me produce the required documents.
+Make sure to read the llms.txt file in that repo and follow it.
 ```
 
 The LLM should then guide you through producing:
